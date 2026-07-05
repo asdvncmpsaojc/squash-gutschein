@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>WhatsApp · Squash-Gutschein</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;700;800;850;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+
+<header class="header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="Startseite">
+      <span class="mark"></span>
+      <span>Squash Gutschein</span>
+    </a>
+
+    <div class="links">
+      <a href="index.html" data-page="home">Start</a>
+      <a href="locations.html" data-page="locations">Locations</a>
+      <a href="voucher.html" data-page="voucher">Gutschein</a>
+      <a href="contact.html" data-page="contact">WhatsApp</a>
+    </div>
+
+    <a class="cta" data-whatsapp-link target="_blank" rel="noopener">Termin</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="kicker">Terminplanung</div>
+    <h1>Einlösen per WhatsApp.</h1>
+    <p class="lead">Keine Buchungsmaske, kein Formular. Einfach Kontakt aufnehmen.</p>
+  </section>
+
+  <section class="layout">
+    <aside class="sidebar">
+      <div class="label">Empfänger</div>
+      <h3 data-recipient></h3>
+      <p>Gutschein für ein gemeinsames Squash-Spiel mit <span data-giver></span>.</p>
+    </aside>
+
+    <div class="whatsapp-box">
+      <div class="label">WhatsApp</div>
+      <h2>Termin finden</h2>
+      <a class="whatsapp-number" data-whatsapp-link target="_blank" rel="noopener" data-whatsapp-display></a>
+      <p>Beim Klick öffnet sich WhatsApp mit einer vorbereiteten Nachricht.</p>
+
+      <div class="message-preview" data-message></div>
+
+      <a class="button accent" data-whatsapp-link target="_blank" rel="noopener">WhatsApp öffnen</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div>Gutschein für Jonas · Squash mit Fabian</div>
+  <div class="footer-links">
+    <a href="locations.html">Locations</a>
+    <a href="voucher.html">Gutschein</a>
+    <a data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

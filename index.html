@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Squash-Gutschein für Jonas</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;700;800;850;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+
+<header class="header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="Startseite">
+      <span class="mark"></span>
+      <span>Squash Gutschein</span>
+    </a>
+
+    <div class="links">
+      <a href="index.html" data-page="home">Start</a>
+      <a href="locations.html" data-page="locations">Locations</a>
+      <a href="voucher.html" data-page="voucher">Gutschein</a>
+      <a href="contact.html" data-page="contact">WhatsApp</a>
+    </div>
+
+    <a class="cta" data-whatsapp-link target="_blank" rel="noopener">Termin</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <div class="kicker">Geburtstagsgutschein</div>
+      <h1>Jonas, wir gehen Squash spielen.</h1>
+      <p class="lead">
+        Ein gemeinsames Match, ein Court, ein Getränk danach.
+        Muskelkater ist möglich, Revancheforderungen auch.
+      </p>
+      <div class="actions">
+        <a class="button dark" data-whatsapp-link target="_blank" rel="noopener">Termin per WhatsApp</a>
+        <a class="button light" href="locations.html">Locations ansehen</a>
+      </div>
+    </div>
+
+    <aside class="voucher">
+      <div class="voucher-top">
+        <span>Squash Voucher</span>
+        <span>No. 2026</span>
+      </div>
+
+      <div class="voucher-title">
+        Court.<br>
+        Match.<br>
+        <span>Drink.</span>
+      </div>
+
+      <div class="voucher-meta">
+        <div class="meta">
+          <span>Für</span>
+          <strong data-recipient></strong>
+        </div>
+        <div class="meta">
+          <span>Von</span>
+          <strong data-giver></strong>
+        </div>
+        <div class="meta">
+          <span>Einlösen</span>
+          <strong>per WhatsApp</strong>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Enthalten.</h2>
+    </div>
+
+    <div class="grid four">
+      <article class="card compact">
+        <div class="label">01</div>
+        <h3>Squash-Court</h3>
+        <p>Eine gemeinsame Runde Squash in Berlin.</p>
+      </article>
+      <article class="card compact">
+        <div class="label">02</div>
+        <h3>Locationwahl</h3>
+        <p>Preußenpark, Insel Sports Club oder Squash 2000.</p>
+      </article>
+      <article class="card compact">
+        <div class="label">03</div>
+        <h3>Getränk danach</h3>
+        <p>Für die kurze, sachliche Spielanalyse.</p>
+      </article>
+      <article class="card compact">
+        <div class="label">04</div>
+        <h3>Ausredenpaket</h3>
+        <p>Wand, Licht, Ball und Schläger werden als Ausrede einmalig anerkannt.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div>Gutschein für Jonas · Squash mit Fabian</div>
+  <div class="footer-links">
+    <a href="locations.html">Locations</a>
+    <a href="voucher.html">Gutschein</a>
+    <a data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
